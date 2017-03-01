@@ -1,26 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <organization>
-    <employee>
-        <firstName>
-            Tom
-        </firstName>
-        <secondName>
-            Henks
-        </secondName>
-        <birthdate>
-            <day>
-                17
-            </day>
-            <month>
-                5
-            </month>
-            <year>
-                1990
-            </year>
-        </birthdate>
-        <workStatus>
-            company.Manager
-        </workStatus>
+    <employee id="1" type="employee">
+        <firstName>Tom</firstName>
+        <secondName>Henks</secondName>
+        <patronymic>Jencs</patronymic>
+        <birthDate>
+            <day>17</day>
+            <month>5</month>
+            <year>1985</year>
+        </birthDate>
+        <offerDate>
+            <day>20</day>
+            <month>7</month>
+            <year>2007</year>
+        </offerDate>
+    </employee>
 
+    <employee id="2" type="employee">
+        <firstName>Ramul</firstName>
+        <secondName>Ant</secondName>
+        <patronymic>Kemping</patronymic>
+        <birthDate>
+            <day>21</day>
+            <month>5</month>
+            <year>1975</year>
+        </birthDate>
+        <offerDate>
+            <day>20</day>
+            <month>7</month>
+            <year>1999</year>
+        </offerDate>
+    </employee>
+
+    <employee id="3" type="employee">
+        <firstName>Buzz</firstName>
+        <secondName>Lighter</secondName>
+        <patronymic>Stivenson</patronymic>
+        <birthDate>
+            <day>19</day>
+            <month>5</month>
+            <year>1995</year>
+        </birthDate>
+        <offerDate>
+            <day>20</day>
+            <month>7</month>
+            <year>2015</year>
+        </offerDate>
+    </employee>
+
+    <employee id="4" type="employee">
+        <firstName>Tramp</firstName>
+        <secondName>Hilary</secondName>
+        <patronymic>Obama</patronymic>
+        <birthDate>
+            <day>24</day>
+            <month>5</month>
+            <year>1987</year>
+        </birthDate>
+        <offerDate>
+            <day>20</day>
+            <month>7</month>
+            <year>2009</year>
+        </offerDate>
+    </employee>
+
+    <employee id="5" type="manager">
+        <firstName>Jim</firstName>
+        <secondName>Bim</secondName>
+        <patronymic>Daniels</patronymic>
+        <birthDate>
+            <day>10</day>
+            <month>9</month>
+            <year>1980</year>
+        </birthDate>
+        <offerDate>
+            <day>17</day>
+            <month>1</month>
+            <year>2000</year>
+        </offerDate>
+        <subordinates>
+            <subId>1</subId>
+            <subId>2</subId>
+            <subId>3</subId>
+            <subId>4</subId>
+        </subordinates>
+    </employee>
+
+    <employee id="7" type="other">
+        <firstName>Some</firstName>
+        <secondName>Body</secondName>
+        <patronymic>Likesyou</patronymic>
+        <birthDate>
+            <day>27</day>
+            <month>8</month>
+            <year>1991</year>
+        </birthDate>
+        <offerDate>
+            <day>14</day>
+            <month>2</month>
+            <year>2012</year>
+        </offerDate>
+        <description></description>
     </employee>
 </organization>

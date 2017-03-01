@@ -3,13 +3,18 @@ package company;
 import java.util.Date;
 
 public class Employee {
+    private static long classCounter;
+    private final long  id;
     private String firstName;
     private String secondName;
     private String patronymic;
     private Date birthDate;
     private Date offerDate;
 
-    public Employee(){}
+    public Employee(){
+        classCounter++;
+        id = classCounter;
+    }
 
     public Employee(String firstName, String secondName, String patronymic, Date birthDate, Date offerDate){
         this.firstName = firstName;
@@ -17,6 +22,8 @@ public class Employee {
         this.patronymic = patronymic;
         this.birthDate = birthDate;
         this.offerDate = offerDate;
+        classCounter++;
+        id = classCounter;
     }
 
     public String getFirstName() {
@@ -57,5 +64,9 @@ public class Employee {
 
     public void setOfferDate(Date offerDate) {
         this.offerDate = offerDate;
+    }
+
+    public long getId() {
+        return id;
     }
 }
