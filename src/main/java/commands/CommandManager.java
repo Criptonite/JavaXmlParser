@@ -16,6 +16,7 @@ public final class CommandManager {
         operationStorage.put(Operation.INFO, new InfoCommand());
         operationStorage.put(Operation.REMOVE, new RemoveCommand());
         operationStorage.put(Operation.UPDATE, new UpdateCommand());
+        operationStorage.put(Operation.EXIT, new ExitCommand());
     }
 
 

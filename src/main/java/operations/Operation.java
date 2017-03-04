@@ -4,5 +4,6 @@ public enum Operation {
     ADD,
     INFO,
     REMOVE,
-    UPDATE;
+    UPDATE,
+    EXIT;
 }
