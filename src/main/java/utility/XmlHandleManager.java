@@ -80,7 +80,7 @@ public class XmlHandleManager {
                 ConsoleHelper.writelnMessage("======================================");
                 if ("manager".equals(employeeType)) printManagerProps(employeeProps);
                 if ("worker".equals(employeeType)) printWorkerProps(employeeProps);
-                if ("other".equals(employeeType)) printOtherProps(employeeProps);
+                if ("otherPersonal".equals(employeeType)) printOtherProps(employeeProps);
                 ConsoleHelper.writelnMessage("======================================");
             }
         }

@@ -86,7 +86,7 @@
         </subordinates>
     </employee>
 
-    <employee id="7" type="other">
+    <employee id="7" type="otherPersonal">
         <firstName>Some</firstName>
         <secondName>Body</secondName>
         <patronymic>Likesyou</patronymic>

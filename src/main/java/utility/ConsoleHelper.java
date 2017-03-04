@@ -37,6 +37,18 @@ public class ConsoleHelper {
         return Integer.parseInt(stringNum);
     }
 
+    public static void printMenu(){
+        writelnMessage("++++++++++Operations++++++++++");
+        writelnMessage("\t1) Add employee.");
+        writelnMessage("\t2) Update employee.");
+        writelnMessage("\t3) Remove employee.");
+        writelnMessage("\t4) Info about employee.");
+        writelnMessage("\t5) Exit.");
+        writelnMessage("++++++++++++++++++++++++++++++");
+        writelnMessage("");
+        writeMessage("Choose an operation ->\t");
+    }
+
     public static Date readDate() throws IOException, ParseException, ExitException {
         SimpleDateFormat sdf = new SimpleDateFormat("dd.MM.yyyy");
         String stringDate;
