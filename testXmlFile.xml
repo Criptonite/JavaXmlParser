@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <organization>
-    <employee id="1" type="employee">
+    <employee id="1" type="worker">
         <firstName>Tom</firstName>
         <secondName>Henks</secondName>
         <patronymic>Jencs</patronymic>
@@ -16,7 +16,7 @@
         </offerDate>
     </employee>
 
-    <employee id="2" type="employee">
+    <employee id="2" type="worker">
         <firstName>Ramul</firstName>
         <secondName>Ant</secondName>
         <patronymic>Kemping</patronymic>
@@ -32,7 +32,7 @@
         </offerDate>
     </employee>
 
-    <employee id="3" type="employee">
+    <employee id="3" type="worker">
         <firstName>Buzz</firstName>
         <secondName>Lighter</secondName>
         <patronymic>Stivenson</patronymic>
@@ -48,7 +48,7 @@
         </offerDate>
     </employee>
 
-    <employee id="4" type="employee">
+    <employee id="4" type="worker">
         <firstName>Tramp</firstName>
         <secondName>Hilary</secondName>
         <patronymic>Obama</patronymic>
@@ -100,6 +100,6 @@
             <month>2</month>
             <year>2012</year>
         </offerDate>
-        <description></description>
+        <description>Director</description>
     </employee>
 </organization>

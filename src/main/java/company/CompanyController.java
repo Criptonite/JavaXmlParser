@@ -2,17 +2,14 @@ package company;
 
 import exceptions.ExitException;
 import utility.ConsoleHelper;
-import utility.XmlManager;
+import utility.XmlHandleManager;
 
 public class CompanyController {
-    private XmlManager xmlManager;
+    private static XmlHandleManager xmlHandleManager = XmlHandleManager.getInstance();
 
     public static void main(String[] args) {
-        try {
+
             ConsoleHelper.writelnMessage("Welcome...");
-            throw new ExitException();
-        } catch (ExitException e){
-            ConsoleHelper.writelnMessage("Goodbye...");
-        }
+            xmlHandleManager.selectAll();
     }
 }
