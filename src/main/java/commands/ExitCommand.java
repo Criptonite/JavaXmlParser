@@ -1,6 +1,5 @@
-package commands.submenu;
+package commands;
 
-import commands.Command;
 import exceptions.ExitException;
 
 public class ExitCommand implements Command {

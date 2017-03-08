@@ -1,5 +1,7 @@
 package commands;
 
+import exceptions.ExitException;
+
 public interface Command {
-    void execute();
+    void execute() throws ExitException;
 }

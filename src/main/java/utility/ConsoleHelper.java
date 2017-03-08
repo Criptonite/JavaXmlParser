@@ -37,13 +37,26 @@ public class ConsoleHelper {
         return Integer.parseInt(stringNum);
     }
 
-    public static void printMenu(){
+    public static void printSubMenu(){
         writelnMessage("++++++++++Operations++++++++++");
-        writelnMessage("\t1) Add employee.");
-        writelnMessage("\t2) Update employee.");
-        writelnMessage("\t3) Remove employee.");
-        writelnMessage("\t4) Info about employee.");
-        writelnMessage("\t5) Exit.");
+        writelnMessage("Please choose one operation by typing word from brackets.");
+        writelnMessage("\t1) Add employee(add).");
+        writelnMessage("\t2) Update employee(update).");
+        writelnMessage("\t3) Remove employee(remove).");
+        writelnMessage("\t4) Info about employee(info).");
+        writelnMessage("\t5) To main menu(back).");
+        writelnMessage("\t6) Exit(exit).");
+        writelnMessage("++++++++++++++++++++++++++++++");
+        writelnMessage("");
+        writeMessage("Choose an operation ->\t");
+    }
+
+    public static void printMainMenu(){
+        writelnMessage("++++++++++Operations++++++++++");
+        writelnMessage("Please choose one operation by typing word from brackets.");
+        writelnMessage("\t1) Create new file(new).");
+        writelnMessage("\t2) Open existing file(open).");
+        writelnMessage("\t3) Exit(exit).");
         writelnMessage("++++++++++++++++++++++++++++++");
         writelnMessage("");
         writeMessage("Choose an operation ->\t");
