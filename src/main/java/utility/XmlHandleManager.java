@@ -12,6 +12,7 @@ import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 import java.io.IOException;
+import java.nio.file.Path;
 
 public class XmlHandleManager {
     private static XmlHandleManager instance;
@@ -45,9 +46,14 @@ public class XmlHandleManager {
         return doc;
     }
 
+    public void createBase(Path path){
+
+    }
+
 
     public void insert(Employee employee) {
-
+    Document doc = getDocument("testXmlFile.xml");
+        Node root = doc.getDocumentElement();
     }
 
 

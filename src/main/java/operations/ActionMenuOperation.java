@@ -1,6 +1,6 @@
 package operations;
 
-public enum Operation {
+public enum ActionMenuOperation {
     ADD,
     INFO,
     REMOVE,
