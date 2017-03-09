@@ -14,6 +14,8 @@ public class OpenFileCommand implements Command {
         String path = null;
         while (true) {
             try {
+                ConsoleHelper.writelnMessage("");
+                ConsoleHelper.writelnMessage("");
                 ConsoleHelper.writelnMessage("===============");
                 ConsoleHelper.writelnMessage("OPEN FILE");
                 ConsoleHelper.writelnMessage("===============");
@@ -24,7 +26,7 @@ public class OpenFileCommand implements Command {
                 ConsoleHelper.writelnMessage("Success!");
                 break;
             } catch (NoSuchFileException e) {
-                ConsoleHelper.writelnMessage("File \"" + path + "\" not exists");
+                ConsoleHelper.writelnMessage("File \"" + path + "\" not exists. Try one more time please.");
             } catch (IOException e) {
                 ConsoleHelper.writelnMessage("Exception in NewFileCommand: " + e.getMessage());
             }

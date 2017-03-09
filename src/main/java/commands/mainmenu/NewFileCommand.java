@@ -14,6 +14,8 @@ public class NewFileCommand implements Command {
         String path = null;
         while (true) {
             try {
+                ConsoleHelper.writelnMessage("");
+                ConsoleHelper.writelnMessage("");
                 ConsoleHelper.writelnMessage("===============");
                 ConsoleHelper.writelnMessage("CREATE NEW FILE");
                 ConsoleHelper.writelnMessage("===============");

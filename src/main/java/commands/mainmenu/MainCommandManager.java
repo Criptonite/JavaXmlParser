@@ -2,7 +2,6 @@ package commands.mainmenu;
 
 import commands.Command;
 import commands.ExitCommand;
-import commands.submenu.ToMainMenuCommand;
 import exceptions.ExitException;
 import operations.MainMenuOpperation;
 

@@ -38,6 +38,8 @@ public class ConsoleHelper {
     }
 
     public static void printSubMenu(){
+        ConsoleHelper.writelnMessage("");
+        ConsoleHelper.writelnMessage("");
         writelnMessage("++++++++++Operations++++++++++");
         writelnMessage("Please choose one operation by typing word from brackets.");
         writelnMessage("\t1) Add employee(add).");
@@ -52,6 +54,8 @@ public class ConsoleHelper {
     }
 
     public static void printMainMenu(){
+        ConsoleHelper.writelnMessage("");
+        ConsoleHelper.writelnMessage("");
         writelnMessage("++++++++++Operations++++++++++");
         writelnMessage("Please choose one operation by typing word from brackets.");
         writelnMessage("\t1) Create new file(new).");
