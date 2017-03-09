@@ -28,7 +28,7 @@ public class CompanyController {
                     continue;
                 }
                 MainCommandManager.executeCommand(mainMenuOpperation);
-                while (mainMenuOpperation != MainMenuOpperation.TO_MAIN_MENU) {
+                while (actionMenuOperation != ActionMenuOperation.TO_MAIN_MENU) {
                     ConsoleHelper.printSubMenu();
                     try {
                         actionMenuOperation = ActionMenuOperation.get(ConsoleHelper.readMessage());

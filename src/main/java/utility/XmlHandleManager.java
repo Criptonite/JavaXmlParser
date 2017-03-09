@@ -13,6 +13,7 @@ import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 import java.io.IOException;
 import java.nio.file.Path;
+import java.nio.file.Paths;
 
 public class XmlHandleManager {
     private static XmlHandleManager instance;
@@ -44,10 +45,6 @@ public class XmlHandleManager {
             e.printStackTrace();
         }
         return doc;
-    }
-
-    public void createBase(Path path){
-
     }
 
 
