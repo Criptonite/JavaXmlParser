@@ -4,6 +4,7 @@ import java.io.BufferedWriter;
 import java.io.IOException;
 import java.nio.file.FileAlreadyExistsException;
 import java.nio.file.Files;
+import java.nio.file.NoSuchFileException;
 import java.nio.file.Paths;
 
 public class XmlDocManager {
@@ -19,9 +20,9 @@ public class XmlDocManager {
             e.printStackTrace();
         }
     }
-    public static void openXmlFile(String path) throws FileAlreadyExistsException {
-        if (Files.exists(Paths.get(path))) {
-            throw new FileAlreadyExistsException(path);
+    public static void openXmlFile(String path) throws NoSuchFileException {
+        if (!Files.exists(Paths.get(path + ".xml"))) {
+            throw new NoSuchFileException(path);
         }
     }
 }
